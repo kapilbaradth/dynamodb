@@ -12,7 +12,7 @@
 
 ## Installation
 
-    npm install dynamodb
+    npm install dynamodb @hapi/joi --save
 
 ## Getting Started
 First, you need to configure the [AWS SDK][2] with your credentials.
@@ -77,6 +77,8 @@ var Account = dynamo.define('Account', {
 Models can also be defined with hash and range keys.
 
 ```js
+var Joi = require('@hapi/joi');
+
 var BlogPost = dynamo.define('BlogPost', {
   hashKey : 'email',
   rangeKey : ‘title’,
