@@ -1,6 +1,8 @@
 
 `dynamodb` is a [DynamoDB][5] data mapper for [node.js][1].
 
+This if a form from `baseprime/dynamodb` which seems to be not maintained anymore. This fork uses the latest node modules and works with the latest Node.js version. I am also working on typings for better TypeScript support. Any kind of PR's are welcome!
+
 ## Features
 * Simplified data modeling and mapping to DynamoDB types
 * Advanced chainable apis for [query](#query) and [scan](#scan) operations
@@ -12,7 +14,7 @@
 
 ## Installation
 
-    npm install dynamodb @hapi/joi --save
+    npm install mickl/dynamodb @hapi/joi --save
 
 ## Getting Started
 First, you need to configure the [AWS SDK][2] with your credentials.
