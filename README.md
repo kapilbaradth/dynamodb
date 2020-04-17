@@ -1,7 +1,9 @@
 
 `dynamodb` is a [DynamoDB][5] data mapper for [node.js][1].
 
-This if a form from `baseprime/dynamodb` which seems to be not maintained anymore. This fork uses the latest node modules and works with the latest Node.js version. I am also working on typings for better TypeScript support. Any kind of PR's are welcome!
+This if a fork from `baseprime/dynamodb` which currently does not work with newer Node.js version. This fork uses the latest node modules and works with the latest Node.js version.
+
+Please use `baseprime/dynamodb` instead as soon as this PR has been merged: https://github.com/baseprime/dynamodb/pull/70
 
 ## Features
 * Simplified data modeling and mapping to DynamoDB types
